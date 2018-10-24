@@ -9,7 +9,7 @@ public class CandidateCode {
     {
         sweet[a]=s.nextInt();
     }
-    int ans = (CandidateCode.give(sweet))%10000007;
+    int ans = (CandidateCode.give(sweet))%10000000007;
     s.close();
     System.out.println(ans);
    }
